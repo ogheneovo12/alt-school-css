@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #a7a8cd;
+    padding-top: 80px;
+    padding-left: 20px;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    width: 400px;
+    min-height: 500px;
+    border-radius: 20px;
+    border-radius: 8px;
+}
+
+.product-card .product-card-image-preview {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.product-card .product-card-image-preview img.product-card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.product-card .product-card-image-preview .product-card-badge {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    background-color: #fdf2b4;
+    padding: 10px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.product-card .product-card-body {
+    background-color: #fff;
+}
+
+.product-card .product-card-body {
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.product-card .product-card-body h2.product-card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.product-card .product-card-body h2.product-card-title small {
+    font-weight: normal;
+    font-size: 14px;
+}

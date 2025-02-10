@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+    font-family: "Lato", serif;
+    background: #666666;
+}
+
+p {
+    font-size: 20px;
+}
+
+strong {
+    color: #009966;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 8px solid #999999;
+    padding: 40px 20px;
+}
+
+header .content {
+    width: 100%;
+    max-width: 415px;
+}
+
+header .content h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    margin-bottom: 48px;
+}
+
+header .content p {
+    margin-bottom: 16px;
+}
+
+main {
+
+    border-top: 5px solid #999999;
+    padding: 100px 0px;
+
+}
+
+main .card {
+    background-color: #fff;
+    padding: 24px 0px;
+    width: 100%;
+    max-width: 800px;
+    min-height: 312px;
+    border-bottom: 8px solid #999999
+}
+
+main .card .card-body {
+    padding: 24px;
+}
+
+main .card .card-body p {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+main .card .card-badge {
+    background-color: #FFBF00;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid #CC9900;
+    width: 100%;
+    max-width: 398px;
+    padding:10px 20px;
+
+
+}
+
+main .card .card-badge h3 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+}
+
+@media (min-width:768px) {
+    main .card .card-badge {
+        margin-left: -10px;
+    }
+}

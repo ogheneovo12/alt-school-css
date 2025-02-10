@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="">
+          <img src="./logo.svg" alt="logo" />
+        </a>
+        <ul>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Learn More</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a class="nav-btn" href="#">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="checkout-form-container">
+        <form class="checkout-form">
+          <div class="form-title">
+            <h3>Checkout</h3>
+          </div>
+          <div class="basic-info">
+            <h3 class="form-section-title">
+              <span class="count"> 1 </span>
+              <span class="title">Your Basic Information </span>
+            </h3>
+            <div class="form-group">
+              <div class="form-control">
+                <label for="first_name">First Name</label>
+                <input
+                  placeholder="jane"
+                  id="first_name"
+                  name="first_name"
+                  type="text"
+                />
+              </div>
+              <div class="form-control">
+                <label for="last_name">Last Name</label>
+                <input
+                  placeholder="jane"
+                  id="last_name"
+                  name="last_name"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="email">E-mail</label>
+              <input
+                placeholder="janedoe@example.com"
+                id="email"
+                name="email"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="payment-info">
+            <h3 class="form-section-title">
+              <span class="count"> 2 </span>
+              <span class="title">Your Payment Information</span>
+            </h3>
+
+            <div class="form-control">
+              <label for="credit-card">Credit Card</label>
+              <div class="credit-card">
+                <input
+                  placeholder="Card Number"
+                  id="credit-card"
+                  type="number"
+                  name="card-number"
+                  class="card-number"
+                />
+                <input
+                  placeholder="MM / YY"
+                  id="expiration"
+                  name="expiration"
+                  type="text"
+                />
+                <input placeholder="CVC" id="cvc" name="cvc" type="text" />
+              </div>
+            </div>
+          </div>
+          <div class="action">
+            <button class="submit-btn" type="submit">Buy Wp Pusher</button>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10ZM18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM11.4142 6.58579C12.1953 7.36683 12.1953 8.63317 11.4142 9.41421L9.29333 11.5325C8.90257 11.9227 8.90217 12.5559 9.29245 12.9467C9.68273 13.3374 10.3159 13.3378 10.7067 12.9475L12.828 10.8289C14.3905 9.26633 14.3905 6.73367 12.8284 5.17157C11.2663 3.60948 8.73367 3.60948 7.17157 5.17157C6.78105 5.5621 6.78105 6.19526 7.17157 6.58579C7.5621 6.97631 8.19526 6.97631 8.58579 6.58579C9.36683 5.80474 10.6332 5.80474 11.4142 6.58579ZM10 16C10.5523 16 11 15.5523 11 15C11 14.4477 10.5523 14 10 14C9.44771 14 9 14.4477 9 15C9 15.5523 9.44771 16 10 16Z"
+                  fill="#548BC5"
+                />
+              </svg>
+              <span>
+                Need any help?
+                <a href="#">Don't hesitate to contact support!</a></span
+              >
+            </p>
+            <img src="./stripe.svg" alt="powered by stripe" />
+          </div>
+        </form>
+        <div class="checkout-product-info">
+          <h3 class="product-title">Freelancer</h3>
+          <h4 class="product-price">
+            <span class="amount"><sup class="currency">$</sup>99</span>
+            <span class="period">/ year</span>
+          </h4>
+          <p class="product-description">Automatically renews after 1 year</p>
+          <ul class="product-features">
+            <li>
+              <img src="./check.svg" alt="check.svg" />Use on 5 client sites
+            </li>
+            <li>
+              <img src="./check.svg" alt="check.svg" />Private repositories
+            </li>
+            <li><img src="./check.svg" alt="check.svg" />Email support</li>
+          </ul>
+
+          <p class="switch-plan">
+            Need <b>20</b> client sites?
+            <a href="#">Switch to the Agency plan.</a>
+          </p>
+
+          <div class="divider"></div>
+
+          <p class="wp-ftp">
+            FTP is horrible to deal with. <span>WP Pusher</span> solves that issue, and the
+            customer support is awesome!
+          </p>
+          <div class="avatar">
+            <img src="./avatar.png" alt="user-avatar" />
+            <span>Kirk Beard</span>
+          </div>
+        </div>
+      </div>
+     
+    </main>
+    <footer><p>© 2018 WP Pusher IVS  ·  <a href="#">Terms of Service</a></p></footer>
+  </body>
+</html>

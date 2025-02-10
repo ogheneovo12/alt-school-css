@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool CSS Assignments</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        color: white;
+        overflow: hidden;
+      }
+
+      .background {
+        background-image: url("/brand.webp");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        position: relative;
+      }
+
+      .overlay {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
+      .assignment-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .assignment-box {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 150px;
+        transition: transform 0.3s ease, background 0.3s ease;
+      }
+
+      .assignment-box:hover {
+        transform: translateY(-10px);
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      .assignment-box a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="overlay">
+        <h1>AltSchool CSS Assignments</h1>
+        <div class="assignment-container">
+          <div class="assignment-box">
+            <a href="./asg-1/index.html">Assignment 1</a>
+          </div>
+          <div class="assignment-box">
+            <a href="./asg-2/index.html">Assignment 2</a>
+          </div>
+          <div class="assignment-box">
+            <a href="./asg-3/index.html">Assignment 3</a>
+          </div>
+          <div class="assignment-box">
+            <a href="./asg-4/index.html">Assignment 4</a>
+          </div>
+          <div class="assignment-box">
+            <a href="./asg-5/index.html">Assignment 5</a>
+          </div>
+          <div class="assignment-box">
+            <a href="./asg-6/index.html">Assignment 6</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>My name: Ukuanonove Ogheneovo</p>
+      </footer>
+    </div>
+  </body>
+</html>
